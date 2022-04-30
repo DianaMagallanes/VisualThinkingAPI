@@ -1,0 +1,19 @@
+{
+  "name": "visualthinkingapi",
+  "version": "1.0.0",
+  "description": "Ejercicio 5 Semana 4 Backend Launch X",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaMagallanes/VisualThinkingAPI.git"
+  },
+  "author": "DianaMagallanes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaMagallanes/VisualThinkingAPI/issues"
+  },
+  "homepage": "https://github.com/DianaMagallanes/VisualThinkingAPI#readme"
+}
