@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DianaMagallanes/VisualThinkingAPI/issues"
   },
-  "homepage": "https://github.com/DianaMagallanes/VisualThinkingAPI#readme"
+  "homepage": "https://github.com/DianaMagallanes/VisualThinkingAPI#readme",
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
 }
