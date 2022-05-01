@@ -10,6 +10,11 @@ describe("Test for ExplorerController",()=> {
     test("2. Obtain partners with more than 500 credits",()=>{
         const partners = PartnerController.getPartnersWithMoreThan500Credits();
         expect(partners.length).toBe(27);        
+    }); 
+
+    test("3. Obtain all",()=>{
+        const partners = PartnerController.getAllPartners();
+        expect(partners.length).toBe(51);        
     });       
    
 });
