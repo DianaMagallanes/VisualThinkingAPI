@@ -23,19 +23,15 @@ En tu navegador entra a [localhost:3000](http://localhost:3000/) y verifica que 
 
 
 ## Requerimientos
-<ul>
-  <li>Endpoint para consultar todos los estudiantes con todos sus campos.</li>
-  <li>Endpoint para consultar los emails de todos los estudiantes que tengan certificación.</li>
-  <li>Endpoint para consultar todos los estudiantes que tengan credits mayor a 500.</li>
-</ul>
+- Endpoint para consultar todos los estudiantes con todos sus campos.
+- Endpoint para consultar los emails de todos los estudiantes que tengan certificación.
+- Endpoint para consultar todos los estudiantes que tengan credits mayor a 500.
 
 
 ## Dependencias
-<ul>
-  <li>Jest versión 26.0.0 (Para realizar pruebas unitarias).</li>
-  <li>ESLint versión 8.14.0 (Para realizar corregir inconsistencias/errores en escritura).</li>
-  <li>Express versión 4.18.0 (Como server).</li>
-</ul>
+- Jest versión 26.0.0 (Para realizar pruebas unitarias). [Documentación](https://jestjs.io/docs/26.x/getting-started/) 
+- ESLint versión 8.14.0 (Para realizar corregir inconsistencias/errores en escritura). [Documentación](https://eslint.org/docs/user-guide/getting-started/)
+- Express versión 4.18.0 (Como server). [Documentación](https://expressjs.com/en/starter/installing.html/)
 
 ### Versión de Node
 v16.14.2
