@@ -18,7 +18,9 @@ Una vez que se terminan de instalar las dependencias necesarias, puedes correr e
 ```
 npm run server
 ```
-Entra al link localhost:3000/v1/students para verificar que el proyecto funciona correctamente.
+En tu navegador entra a [localhost:3000](http://localhost:3000/) y verifica que se muestre el siguiente mensaje:
+![imagen](https://user-images.githubusercontent.com/28024862/168131062-ef2181fd-c3ab-41ae-b7c7-cd6b81f7d871.png)
+
 
 ## Requerimientos
 <ul>
@@ -34,6 +36,9 @@ Entra al link localhost:3000/v1/students para verificar que el proyecto funciona
   <li>ESLint versión 8.14.0 (Para realizar corregir inconsistencias/errores en escritura).</li>
   <li>Express versión 4.18.0 (Como server).</li>
 </ul>
+
+### Versión de Node
+v16.14.2
 
 ## Diseño de componentes
 <div align="center"><img src="https://user-images.githubusercontent.com/28024862/166128140-4563d3cf-e81b-4a95-8197-0561195b34c3.png"></div>
