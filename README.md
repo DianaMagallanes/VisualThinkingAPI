@@ -34,7 +34,7 @@ En tu navegador entra a [localhost:3000](http://localhost:3000/) y verifica que 
 - Express versión 4.18.0 (Como server). [Documentación](https://expressjs.com/en/starter/installing.html/)
 
 ### Versión de Node
-v16.14.2
+v16.14.2 [Documentación](https://nodejs.org/docs/v16.14.2/api/)
 
 ## Diseño de componentes
 <div align="center"><img src="https://user-images.githubusercontent.com/28024862/166128140-4563d3cf-e81b-4a95-8197-0561195b34c3.png"></div>
