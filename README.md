@@ -39,9 +39,23 @@ v16.14.2 [Documentación](https://nodejs.org/docs/v16.14.2/api/)
 ## Diseño de componentes
 <div align="center"><img src="https://user-images.githubusercontent.com/28024862/166128140-4563d3cf-e81b-4a95-8197-0561195b34c3.png"></div>
 
+## Estructura proyecto
+1.  En la raiz de nuestro repo encontraremos 2 archivos json. El archivo **visualPartners.json** es donde se encontrara toda la información que estamos utilizando para nuestra API. _El archivo **visualPartnersTest.json** contiene información a utilizar en las pruebas._
+2.  En la carpeta **lib** tenemos:
+    -   Carpeta **controllers** contiene archivo: **PartnerController.js** donde se manda a **PartnerService.js**  la información que **Reader.js** obtuvo, y que recibira la información ya modificada de acuerdo a las operaciones indicadas en **PartnerService.js**.
+    -   Carpeta **services** contiene archivo: **PartnerService.js** donde se realizaran las operaciones solicitadas en los requerimientos.
+    -   Carpeta **utils** contiene archivo: **Reader.js** donde se lee la información del archivo **visualPartners.json**.
+    -   Archivo **server.js** donde se hace la configuración del servidor express y se especifican los endpoints solicitados en los requerimientos. Aquí se recibe la información de **PartnerController.js** y se muestra en el endpoint indicado.
+
+3.  En la carpeta **test** tenemos una estructura de archivos y carpetas que es un reflejo de la carpeta **lib**. En esta carpeta estan todos los archivos de pruebas realizadas.
+4.  En la carpeta **.github/worklows** se encuentra el archivo **test.yml** que es donde se tiene el código que permite automatizar nuestras pruebas. Nota: se correran las pruebas automáticamente cada vez que hagamos un push a nuestro repo en github gracias a github actions:
+![imagen](https://user-images.githubusercontent.com/28024862/168136482-e7fec657-09c0-40f4-affa-3511f6e9bbf7.png)
+
+
+
+
 
 ## Endpoints
-
 
 | **endpoint**  |  **image** |   
 |---|---|
