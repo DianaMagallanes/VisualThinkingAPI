@@ -3,7 +3,24 @@ Ejercicio 5 Semana 4 Backend Launch X
 
 Este repo es un code challenge para la semana 4 de backend en launch X.
 
-<h2>Requerimientos</h2>
+## Instalación
+Para instalar localmente este proyecto, copia el enlace del repositorio: [Link repo](https://github.com/DianaMagallanes/VisualThinkingAPI) ó dentro de la página del repo puedes dar clic en el botón de _Code_ y despues dar clic en el botón de copiar:
+![imagen](https://user-images.githubusercontent.com/28024862/168127558-77ece41c-1c36-4288-99fd-51990ddcf3c1.png)
+Una vez que tengas el link del repo copiado, en tu línea de comandos/terminal corre el siguiente comando de git:
+```
+git clone https://github.com/DianaMagallanes/VisualThinkingAPI
+```
+Ya que has clonado el repo de manera local, se deben instalar las dependencias que utiliza el proyecto, para esto ejecuta:
+```
+npm install
+```
+Una vez que se terminan de instalar las dependencias necesarias, puedes correr el proyecto con el siguiente comando:
+```
+npm run server
+```
+Entra al link localhost:3000/v1/students para verificar que el proyecto funciona correctamente.
+
+## Requerimientos
 <ul>
   <li>Endpoint para consultar todos los estudiantes con todos sus campos.</li>
   <li>Endpoint para consultar los emails de todos los estudiantes que tengan certificación.</li>
@@ -11,18 +28,18 @@ Este repo es un code challenge para la semana 4 de backend en launch X.
 </ul>
 
 
-<h2>Dependencias</h2>
+## Dependencias
 <ul>
   <li>Jest versión 26.0.0 (Para realizar pruebas unitarias).</li>
   <li>ESLint versión 8.14.0 (Para realizar corregir inconsistencias/errores en escritura).</li>
   <li>Express versión 4.18.0 (Como server).</li>
 </ul>
 
-<h2>Diseño de componentes</h2>
+## Diseño de componentes
 <div align="center"><img src="https://user-images.githubusercontent.com/28024862/166128140-4563d3cf-e81b-4a95-8197-0561195b34c3.png"></div>
 
 
-<h2>End points</h2>
+## Endpoints
 
 
 | **endpoint**  |  **image** |   
