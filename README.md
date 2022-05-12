@@ -51,7 +51,9 @@ v16.14.2 [Documentación](https://nodejs.org/docs/v16.14.2/api/)
 4.  En la carpeta **.github/worklows** se encuentra el archivo **test.yml** que es donde se tiene el código que permite automatizar nuestras pruebas. Nota: se correran las pruebas automáticamente cada vez que hagamos un push a nuestro repo en github gracias a github actions:
 ![imagen](https://user-images.githubusercontent.com/28024862/168136482-e7fec657-09c0-40f4-affa-3511f6e9bbf7.png)
 
-
+### Ilustración estructura:
+Créditos a [CarloGilmar](https://github.com/carlogilmar)
+![imagen](https://user-images.githubusercontent.com/17634377/165870375-fe5a730a-eada-4abe-ac9c-42334e003b18.png)
 
 
 
